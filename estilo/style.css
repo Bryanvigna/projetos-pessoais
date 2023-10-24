@@ -1,0 +1,5 @@
+@charset "UTF-8";
+.zap{
+    display: flex;
+    justify-content: flex-end;
+}
