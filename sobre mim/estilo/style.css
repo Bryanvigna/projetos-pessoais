@@ -1,5 +1,280 @@
 @charset "UTF-8";
-.zap{
-    display: flex;
-    justify-content: flex-end;
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+
+:root{
+    --color1: black;
+    --color2: #ffd1ab;
+    --color3: #cc8347de;
+    --color4: #ff8b2db0;
+    --color5: #096d36;
+    --color6: #85cf8993;
+    --color7: #5abe5d94;
+    --color8: #FF7400;
+    --color9: #00F009;
+
+    --font-padrão: verdana, arial, sans-serif;
+    --font-destaque:'Dancing Script', cursive;
 }
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+strong{
+    font-weight: bold;
+}
+body{
+    font-family: var(--font-padrão);
+    font-size: 1em;
+    background-color: var(--color6);
+    position: relative;
+}
+a.externo{
+    background-image: linear-gradient(to right, var(--color4), transparent);
+}
+a.externo::after{
+    content:'\1F517';
+}
+
+body h1, h2{
+    font-family: var(--font-destaque);
+    font-size: 2.5em;
+    font-weight: bolder
+}
+header{
+    width: auto;
+    min-height: 100px;
+    background-image: linear-gradient(to top,var(--color5), var(--color7));
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+header>h1{
+    font-family: var(--font-padrão);
+    text-align: center;
+    font-weight: bolder;
+    font-size: 3em;
+    color: white;
+    margin-top: 20px;
+    text-shadow: 1px 1px 1px black;
+}
+header>h1:hover{
+    transition-duration: 0.4s;
+    font-size: 3.2em;
+}
+header>p{
+    font-family: var(--font-destaque);
+    text-align: center;
+    font-weight: normal;
+    font-size: 2em;
+    color: white;
+    padding-top: 10px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.582);
+}
+nav{
+    padding-left: 50px;
+    background-color: var(--color5);
+    padding: 20px;
+}
+nav>a{
+    text-decoration: none;
+    color: #b5ffb7 ;
+    font-family: var(--font-padrão);
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px;
+}
+nav>a:hover{
+    text-decoration: underline;
+    background-color: var(--color3);
+    color: white;
+    border-radius: 10px;
+    transition-duration: .4s;
+}
+main{
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    box-shadow:0px 2px 10px rgba(49, 49, 49, 0.274);
+    border-radius: 30px 30px 10px 10px;
+    /*border-top-right-radius: 30px;
+    border-top-left-radius:30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;*/
+}
+.topico1>h1{
+    text-align: center;
+    font-weight: bolder;
+    background-image: linear-gradient(to right, var(--color4), transparent);
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.topico1>h1:hover{
+    transition-duration: 0.4s;
+    font-size: 2.8em;
+}
+.topico1>p{
+    text-align: justify;
+    text-indent: 15px;
+    font-size: 1.2em;
+    padding: 20px;
+}
+.topico2{
+    text-align: center;
+}
+.topico2>h1{
+    background-image: linear-gradient(to right, var(--color4), transparent);
+}
+.topico2>h1:hover{
+    transition-duration: 0.4s;
+    font-size: 2.8em;
+}
+.topico2 p{
+    text-align: justify;
+    text-indent: 15px;
+    font-size: 1.1em;
+    padding: 20px;
+}
+.topico2 a{
+    text-decoration: none;
+    color: black;
+}
+.topico2 a:hover{
+    text-decoration: underline;
+    color: var(--color5);
+}
+.behance1{
+    max-height: 600px;
+    max-width: 500px;
+    min-height: 550px;
+    min-width: 440px;
+    background-color: var(--color8);
+    margin: auto;
+    padding: 10px 0px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/83ab18153227625.632bc8647ef90.png);
+}
+.behance2{
+    max-height: 600px;
+    max-width:600px;
+    min-height: 400px;
+    min-width: 440px;
+    
+    background-color: var(--color9);
+    margin: auto;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/151ce0153227625.63447191ba51f.gif);
+}
+.behance3{
+    max-height: 600px;
+    max-width: 600px;
+    min-height: 300px;
+    min-width: 440px;
+    background-color: var(--color8);
+    margin: auto;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/45af19153227625.63348c56250b9.png);
+}
+.behance4{
+    max-height: 600px;
+    max-width: 600px;
+    min-height: 300px;
+    min-width: 440px;
+    background-color: var(--color8);
+    margin: auto;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/4656d0153227625.632c6ab327a71.png);
+}
+.behance5{
+    max-height: 600px;
+    max-width: 600px;
+    min-height: 300px;
+    min-width: 440px;
+    background-color: var(--color8);
+    margin: auto;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/516035153227625.632bc8647e864.gif);
+}
+.behance6{
+    max-height: 600px;
+    max-width: 600px;
+    min-height: 300px;
+    min-width: 440px;
+    background-color: var(--color8);
+    margin: auto;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/7774d2153227625.632bc8647e0f9.png);
+}
+.behance7{
+    max-height: 600px;
+    max-width: 600px;
+    min-height: 300px;
+    min-width: 440px;
+    background-color: var(--color8);
+    margin: auto;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: left center;
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/d13900153227625.632f185419316.png);
+}
+.behance8{
+    max-height: 600px;
+    max-width: 600px;
+    min-height: 263px;
+    min-width: 440px;
+    background-color: var(--color8);
+    margin: auto;
+    border-radius: 10px;
+    background-size: cover;
+    background-position:center center;
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/6db57e153227625.632bd12ed7685.gif);
+}
+#behance{
+    background-color: var(--color8);
+    margin:auto;
+    margin-top: 10px;
+    padding-bottom: 40px;
+    max-width: 60vw;
+    border-radius: 10px;
+}
+#behance>h2{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+#behance>iframe{
+    transform: translateY(20px);
+}
+footer{
+    background-color: var(--color4);
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: var(--color5);
+    transition: .3s;
+}
+
