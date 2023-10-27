@@ -150,7 +150,7 @@ main{
     max-height: 600px;
     max-width: 500px;
     min-height: 550px;
-    min-width: 440px;
+    min-width: 320px;
     background-color: var(--color8);
     margin: auto;
     padding: 10px 0px;
@@ -163,7 +163,7 @@ main{
     max-height: 600px;
     max-width:600px;
     min-height: 400px;
-    min-width: 440px;
+    min-width: 320px;
     
     background-color: var(--color9);
     margin: auto;
@@ -176,7 +176,7 @@ main{
     max-height: 600px;
     max-width: 600px;
     min-height: 300px;
-    min-width: 440px;
+    min-width: 320px;
     background-color: var(--color8);
     margin: auto;
     border-radius: 10px;
@@ -188,8 +188,8 @@ main{
     max-height: 600px;
     max-width: 600px;
     min-height: 300px;
-    min-width: 440px;
-    background-color: var(--color8);
+    min-width: 320px;
+    background-color: var(--color9);
     margin: auto;
     border-radius: 10px;
     background-size: cover;
@@ -200,7 +200,7 @@ main{
     max-height: 600px;
     max-width: 600px;
     min-height: 300px;
-    min-width: 440px;
+    min-width: 320px;
     background-color: var(--color8);
     margin: auto;
     border-radius: 10px;
@@ -212,8 +212,8 @@ main{
     max-height: 600px;
     max-width: 600px;
     min-height: 300px;
-    min-width: 440px;
-    background-color: var(--color8);
+    min-width: 320px;
+    background-color: var(--color9);
     margin: auto;
     border-radius: 10px;
     background-size: cover;
@@ -224,7 +224,7 @@ main{
     max-height: 600px;
     max-width: 600px;
     min-height: 300px;
-    min-width: 440px;
+    min-width: 320px;
     background-color: var(--color8);
     margin: auto;
     border-radius: 10px;
@@ -236,8 +236,8 @@ main{
     max-height: 600px;
     max-width: 600px;
     min-height: 263px;
-    min-width: 440px;
-    background-color: var(--color8);
+    min-width: 320px;
+    background-color: var(--color9);
     margin: auto;
     border-radius: 10px;
     background-size: cover;
@@ -250,14 +250,16 @@ main{
     margin-top: 10px;
     padding-bottom: 40px;
     max-width: 60vw;
+    min-width: 320px;
     border-radius: 10px;
 }
 #behance>h2{
-    color: white;
+    color: rgb(255, 255, 255);
     text-shadow: 1px 1px 1px black;
 }
 #behance>iframe{
     transform: translateY(20px);
+    min-width: 320px;
 }
 footer{
     background-color: var(--color4);
