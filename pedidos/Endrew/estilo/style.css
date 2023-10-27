@@ -27,7 +27,7 @@ h1{
     margin: auto;
     width: 150px;
     color: white;
-    transform: translateY(280px);
+    transform: translateX(3px) translateY(280px);
     font-size: 3em;
     font-weight: bolder;
 }
