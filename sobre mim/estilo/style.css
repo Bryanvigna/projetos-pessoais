@@ -37,7 +37,9 @@ a.externo{
 a.externo::after{
     content:'\1F517';
 }
-
+footer a::after{
+    content:'\1F517';
+}
 body h1, h2{
     font-family: var(--font-destaque);
     font-size: 2.5em;
@@ -75,7 +77,10 @@ header>p{
 nav{
     padding-left: 50px;
     background-color: var(--color5);
+    height: 20px;
     padding: 20px;
+    position: sticky;
+    top: -1px;
 }
 nav>a{
     text-decoration: none;
@@ -274,9 +279,6 @@ footer{
 footer a{
     text-decoration: none;
     color: white;
-}
-footer a::after{
-    content:'\1F517';
 }
 footer a:hover{
     text-decoration: underline;
