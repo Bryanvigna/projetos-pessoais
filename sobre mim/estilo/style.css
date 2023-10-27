@@ -150,7 +150,7 @@ main{
     max-height: 600px;
     max-width: 500px;
     min-height: 550px;
-    min-width: 320px;
+    min-width: 300px;
     background-color: var(--color8);
     margin: auto;
     padding: 10px 0px;
@@ -163,7 +163,7 @@ main{
     max-height: 600px;
     max-width:600px;
     min-height: 400px;
-    min-width: 320px;
+    min-width: 300px;
     
     background-color: var(--color9);
     margin: auto;
@@ -176,7 +176,7 @@ main{
     max-height: 600px;
     max-width: 600px;
     min-height: 300px;
-    min-width: 320px;
+    min-width: 300px;
     background-color: var(--color8);
     margin: auto;
     border-radius: 10px;
@@ -188,19 +188,19 @@ main{
     max-height: 600px;
     max-width: 600px;
     min-height: 300px;
-    min-width: 320px;
+    min-width: 300px;
     background-color: var(--color9);
     margin: auto;
     border-radius: 10px;
     background-size: cover;
-    background-position: center center;
+    background-position: left center;
     background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/4656d0153227625.632c6ab327a71.png);
 }
 .behance5{
     max-height: 600px;
     max-width: 600px;
     min-height: 300px;
-    min-width: 320px;
+    min-width: 300px;
     background-color: var(--color8);
     margin: auto;
     border-radius: 10px;
@@ -212,7 +212,7 @@ main{
     max-height: 600px;
     max-width: 600px;
     min-height: 300px;
-    min-width: 320px;
+    min-width: 300px;
     background-color: var(--color9);
     margin: auto;
     border-radius: 10px;
@@ -224,7 +224,7 @@ main{
     max-height: 600px;
     max-width: 600px;
     min-height: 300px;
-    min-width: 320px;
+    min-width: 300px;
     background-color: var(--color8);
     margin: auto;
     border-radius: 10px;
@@ -236,7 +236,7 @@ main{
     max-height: 600px;
     max-width: 600px;
     min-height: 263px;
-    min-width: 320px;
+    min-width: 300px;
     background-color: var(--color9);
     margin: auto;
     border-radius: 10px;
