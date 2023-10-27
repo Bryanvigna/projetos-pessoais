@@ -9,12 +9,14 @@
     margin: 0px;
     padding: 0px;
 }
-
+body{
+    background-color: black;
+}
 .img{
     width: 459px;
     height: 500px;
     background-color: rgb(255, 37, 171);
-    margin: 20px auto;
+    margin:auto;
     background-size: cover;
     text-align: center;
     background-position: center center;
@@ -23,6 +25,7 @@
 h1{
     text-align: center;
     margin: auto;
+    width: 150px;
     color: white;
     transform: translateY(280px);
     font-size: 3em;
@@ -33,9 +36,10 @@ a{
     color: white;
 }
 h1:hover{
-    margin: auto 130px;
+    margin: auto;
     border-radius: 20px;
-    height: 60px;
+    height: 57px;
+    width: 130px;
     font-family: var(--fontstreet);
     background-color: white;
     color: black;
