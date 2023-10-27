@@ -1,0 +1,43 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+:root{
+    --fontstreet:'Sedgwick Ave Display', cursive;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.img{
+    width: 459px;
+    height: 500px;
+    background-color: rgb(255, 37, 171);
+    margin: 20px auto;
+    background-size: cover;
+    text-align: center;
+    background-position: center center;
+    background-image: url(https://images.unsplash.com/flagged/photo-1565241651368-35437ca5563f?auto=format&fit=crop&q=80&w=1287&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+h1{
+    text-align: center;
+    margin: auto;
+    color: white;
+    transform: translateY(280px);
+    font-size: 3em;
+    font-weight: bolder;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+h1:hover{
+    margin: auto 130px;
+    border-radius: 20px;
+    height: 60px;
+    font-family: var(--fontstreet);
+    background-color: white;
+    color: black;
+    transition: .4s;
+}
