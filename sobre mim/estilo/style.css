@@ -267,6 +267,12 @@ main{
     height: 70vh;
     min-width: 60vh;
 }
+#behance>iframe:hover{
+    transform: translateY(20px);
+    height: 72vh;
+    min-width: 62vh;
+    transition: .4s;
+}
 footer{
     background-color: var(--color4);
     color: white;
