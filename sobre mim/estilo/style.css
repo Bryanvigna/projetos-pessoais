@@ -255,7 +255,7 @@ main{
     margin-top: 10px;
     padding-bottom: 40px;
     max-width: 60vw;
-    min-width: 400px;
+    min-width: 420px;
     border-radius: 10px;
 }
 #behance>h2{
@@ -265,7 +265,7 @@ main{
 #behance>iframe{
     transform: translateY(20px);
     height: 70vh;
-    min-width: 67vh;
+    min-width: 60vh;
 }
 footer{
     background-color: var(--color4);
