@@ -32,7 +32,8 @@ body{
     position: relative;
 }
 a.externo{
-    background-image: linear-gradient(to right, var(--color4), transparent);
+
+    background-image: linear-gradient(to right,#ff8b2d41, var(--color4), transparent);
 }
 a.externo::after{
     content:'\1F517';
@@ -48,7 +49,7 @@ body h1, h2{
 header{
     width: auto;
     min-height: 100px;
-    background-image: linear-gradient(to top,rgb(22, 22, 22), rgba(170, 170, 170, 0.795));
+    background-image: linear-gradient(to top,rgb(22, 22, 22), rgba(148, 148, 148, 0.795));
     padding-top: 20px;
     padding-bottom: 0px;
 }
@@ -113,12 +114,15 @@ main{
 }
 .topico1>h1{
     text-align: center;
+    max-width: 600px;
+    margin: auto;
     font-weight: bolder;
-    background-image: linear-gradient(to right, var(--color4), transparent);
+    background-image: linear-gradient(to right, transparent, var(--color4), transparent);
 }
 .topico1>h1:hover{
     transition-duration: 0.4s;
     font-size: 2.8em;
+    text-shadow: 1px 1px 5px white;
 }
 .topico1>p{
     text-align: justify;
@@ -126,15 +130,16 @@ main{
     font-size: 1.2em;
     padding: 20px;
 }
-.topico2{
-    text-align: center;
-}
 .topico2>h1{
-    background-image: linear-gradient(to right, var(--color4), transparent);
+    text-align: center;
+    margin: auto;
+    max-width: 460px;
+    background-image: linear-gradient(to right, transparent, var(--color4), transparent);
 }
 .topico2>h1:hover{
     transition-duration: 0.4s;
     font-size: 2.8em;
+    text-shadow: 1px 1px 5px white;
 }
 .topico2 p{
     text-align: justify;
