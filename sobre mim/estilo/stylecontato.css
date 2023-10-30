@@ -1,0 +1,195 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+
+:root{
+    --color1: #181818;
+    --color2: #ffd1ab;
+    --color3: #cc8347de;
+    --color4: #ff8b2db0;
+    --color5: #096d36;
+    --color6: #85cf8993;
+    --color7: #5abe5d94;
+    --color8: #FF7400;
+    --color9: #00F009;
+
+    --font-padrão: verdana, arial, sans-serif;
+    --font-destaque:'Dancing Script', cursive;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+strong{
+    font-weight: bold;
+}
+body{
+    font-family: var(--font-padrão);
+    font-size: 1em;
+    background-color: white;
+    position: relative;
+}
+
+header{
+    width: auto;
+    min-height: 100px;
+    background-image: linear-gradient(to top,rgb(22, 22, 22), rgba(148, 148, 148, 0.795));
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+header>h1{
+    font-family: var(--font-padrão);
+    text-align: center;
+    font-weight: bolder;
+    font-size: 3em;
+    color: white;
+    margin-top: 20px;
+    text-shadow: 1px 1px 1px black;
+}
+header>h2{
+    font-family: var(--font-padrão);
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    margin-top: 20px;
+    text-shadow: 1px 1px 1px black;
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+header>h1:hover{
+    transition-duration: 0.4s;
+    font-size: 3.2em;
+}
+header>p{
+    font-family: var(--font-destaque);
+    text-align: center;
+    font-weight: normal;
+    font-size: 2em;
+    color: white;
+    padding-top: 10px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.582);
+}
+nav{
+    padding-left: 50px;
+    background-color:rgb(22, 22, 22);
+    height: 20px;
+    padding: 17px;
+    position: sticky;
+    top: -1px;
+}
+nav>a{
+    text-decoration: none;
+    color: white ;
+    font-family: var(--font-padrão);
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px;
+}
+nav>a:hover{
+    background-color: var(--color8);
+    color: white;
+    border-radius: 10px;
+    transition-duration: .4s;
+    font-size: 1.3em;
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.507);
+}
+main{
+    display: inline-flex;
+}
+main p{
+    color: white;
+    font-size: 1.9em;
+    text-align: center;
+}
+main a{
+    text-decoration: none;
+}
+.box1{
+    background-color: red;
+    margin: 20px ;
+    width: 300px;
+    height: 450px;
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/83ab18153227625.632bc8647ef90.png);
+    background-size: cover;
+    background-position: center center;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.521);
+}
+.box1>p{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    width: 50%;
+    height: 8.4%;
+    border-radius: 20px;
+    margin: auto;
+    transform: translateY(20px);
+}
+.box1:hover{
+    transform: scale(0.969);
+    transform: translate(-0px, -6px);
+    transition: 0.4s;
+}
+.box2{
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    min-width: 300px;
+    min-height: 450px;
+    border-radius: 20px;
+
+    background-image: url(../imagens/github.png);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.box2>p{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    margin: 20px;
+    width: 50%;
+    height: 8.2%;
+    border-radius: 20px;
+    margin: auto;
+    transform: translateY(20px);
+}
+.box2:hover{
+    transform: scale(0.969);
+    transform: translate(-0px, -6px);
+    transition: 0.4s;
+}
+.box3:hover{
+    transform: scale(0.969);
+    transform: translate(-0px, -6px);
+    transition: 0.4s;
+}
+.box3{
+    background-color: red;
+    margin: 20px;
+    min-width: 300px;
+    min-height: 450px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.521);
+}
+footer{
+    background-color: var(--color4);
+    color: white;
+    font-family: var(--font-padrão);
+    text-align: center;
+    font-size: 1.2em;
+    padding: 5px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a::after{
+    content:'\1F517';
+}
+footer a:hover{
+    text-decoration: underline;
+    color: var(--color5);
+    transition: .3s;
+}

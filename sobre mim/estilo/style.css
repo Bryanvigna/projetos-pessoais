@@ -17,7 +17,6 @@
     --font-padrão: verdana, arial, sans-serif;
     --font-destaque:'Dancing Script', cursive;
 }
-
 *{
     margin: 0px;
     padding: 0px;
@@ -62,6 +61,10 @@ header>h1{
     margin-top: 20px;
     text-shadow: 1px 1px 1px black;
 }
+header a{
+    text-decoration: none;
+    color:white;
+}
 header>h1:hover{
     transition-duration: 0.4s;
     font-size: 3.2em;
@@ -96,7 +99,6 @@ nav>a:hover{
     color: white;
     border-radius: 10px;
     transition-duration: .4s;
-    font-size: 1.3em;
     box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.507);
 }
 main{
@@ -254,8 +256,10 @@ main{
     background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/6db57e153227625.632bd12ed7685.gif);
 }
 #behance{
+    display: block;
     background-color: var(--color8);
     margin:auto;
+    text-align: center;
     margin-top: 10px;
     padding-bottom: 40px;
     max-width: 60vw;
@@ -266,15 +270,15 @@ main{
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 1px black;
 }
-#behance>iframe{
-    transform: translateY(20px);
-    height: 70vh;
+#behance>iframe{  
+    margin-top: 10px;
+    min-height: 70vh;
     min-width: 60vh;
 }
 #behance>iframe:hover{
-    transform: translateY(20px);
     height: 72vh;
     min-width: 62vh;
+    transform: translate(0px, -5px);
     transition: .4s;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.397);
     border-radius: 10px;
