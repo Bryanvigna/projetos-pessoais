@@ -43,8 +43,15 @@ main{
 }
 .descricao{
     margin: 10px auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 380px;
     font-family: var(--font-padrão);
     font-weight: bolder;
+    background-color: white;
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
 }
 .foto{
     background-color:transparent;
