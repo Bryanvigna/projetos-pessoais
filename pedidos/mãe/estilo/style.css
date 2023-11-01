@@ -18,6 +18,7 @@ body{
     text-align: center;
     margin: auto;
     background-image: linear-gradient(to top, var(--cor1),var(--cor2));
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100%;
 }
