@@ -30,7 +30,10 @@ body{
     background-color: white;
     position: relative;
 }
-
+header:hover > :not(:hover){
+    transition: .3s;
+    cursor: pointer;
+}
 header{
     width: auto;
     min-height: 100px;
@@ -107,6 +110,12 @@ main p{
 main a{
     text-decoration: none;
 }
+main:hover > :not(:hover){
+    opacity: .4;
+    transform: scale(0.9);
+    transition: .7s;
+    cursor: pointer;
+}
 .box1{
     background-color: red;
     margin: 20px ;
@@ -148,7 +157,6 @@ main a{
 .box2>p{
     background-color: black;
     color: rgb(255, 255, 255);
-    margin: 20px;
     width: 50%;
     height: 8.2%;
     border-radius: 20px;
@@ -160,11 +168,6 @@ main a{
     transform: translate(-0px, -6px);
     transition: 0.4s;
 }
-.box3:hover{
-    transform: scale(0.969);
-    transform: translate(-0px, -6px);
-    transition: 0.4s;
-}
 .box3{
     background-color: red;
     margin: 20px;
@@ -172,6 +175,21 @@ main a{
     min-height: 450px;
     border-radius: 20px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.521);
+}
+.box3>p{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    width: 50%;
+    height: 8.2%;
+    margin-top: 20px;
+    margin: auto;
+    transform: translateY(20px);
+}
+.box3:hover{
+    transform: scale(0.969);
+    transform: translate(-0px, -6px);
+    transition: 0.4s;
 }
 footer{
     background-color: var(--color4);
