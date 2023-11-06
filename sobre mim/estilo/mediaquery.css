@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@media screen and (max-width:768px) {
+    main{
+        display: block;
+    }
+    .box1{
+        margin: auto;
+        margin-top: 15px;
+    }
+    .box2{
+        margin: auto;
+        max-width:150px ;
+    }
+    .box3{
+        margin: auto;
+        max-width: 150px;
+    }
+}
