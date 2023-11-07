@@ -2,15 +2,24 @@
 
 @media screen and (max-width:678px){
     .dg{
-        display: block;
-        height: 1700px;
+        display: grid;
+        height: 640px;
+        width: 430px;
+    }
+    .grafico1,.grafico2,.grafico3,.grafico4{
+        max-width:200px;
+        max-height: 300px;
     }
 }
-@media screen and (min-width:679px){
+@media (min-width:679px) and (max-width:900px){
     .dg{
         display: grid;
         margin: auto;
         grid-template-columns: auto auto;
-        height: 1000px;
+        height: 830px;
+        width: 640px;
     }
+}
+@media (min-width:600px) and (max-width:900px){
+    
 }
