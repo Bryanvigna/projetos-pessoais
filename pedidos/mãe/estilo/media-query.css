@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+@media screen and (max-width:770px){
+    .icon{
+        display: flex;
+        justify-content: center;
+    }
+    .zap,.ytb,.inst,.tl{
+        
+        height: 80px;
+        width: 80px;
+    }
+}
