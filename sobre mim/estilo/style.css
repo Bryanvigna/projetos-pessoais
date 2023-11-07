@@ -97,13 +97,18 @@ nav>a{
     font-size: 1.2em;
     font-weight: bold;
     padding: 10px;
+    transition: .2s;
 }
 nav>a:hover{
     background-color: var(--color8);
     color: white;
     border-radius: 10px;
-    transition-duration: .4s;
+    font-size: 1.3em;
     box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.507);
+}
+nav:hover > :not(:hover){
+    opacity: 60%;
+    transition: .2s;
 }
 main{
     background-color: white;
