@@ -17,3 +17,14 @@
         max-width: 150px;
     }
 }
+@media (min-width:769px) and (max-width:1035px) {
+    main{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin: auto;
+        width: 800px;
+    }
+    .box3{
+        align-items: center;
+    }
+}
