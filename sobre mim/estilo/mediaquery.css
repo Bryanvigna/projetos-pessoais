@@ -22,9 +22,5 @@
         display: grid;
         grid-template-columns: auto auto;
         margin: auto;
-        width: 800px;
-    }
-    .box3{
-        align-items: center;
     }
 }
