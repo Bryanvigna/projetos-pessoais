@@ -326,7 +326,6 @@ iframe{
     margin-top: 10px;
     min-height: 400px;
     min-width: 350px;
-    
     transition: .4s;
 }
 iframe:hover{
