@@ -15,7 +15,7 @@ body{
 .img{
     width: 459px;
     height: 500px;
-    background-color: rgb(255, 37, 171);
+    background-color: black;
     margin:auto;
     background-size: cover;
     text-align: center;
