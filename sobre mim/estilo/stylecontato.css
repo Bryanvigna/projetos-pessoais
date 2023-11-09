@@ -139,7 +139,7 @@ main:hover > :not(:hover){
     color: rgb(0, 0, 0);
     margin: 20px;
     width: 50%;
-    height: 8.4%;
+    height: 40px;
     border-radius: 20px;
     margin: auto;
     transform: translateY(20px);
@@ -163,7 +163,7 @@ main:hover > :not(:hover){
     background-color: black;
     color: rgb(255, 255, 255);
     width: 50%;
-    height: 8.2%;
+    height: 40px;
     border-radius: 20px;
     margin: auto;
     transform: translateY(20px);
@@ -190,7 +190,7 @@ main:hover > :not(:hover){
     color: rgb(255, 255, 255);
     border-radius: 20px;
     width: 50%;
-    height: 8.2%;
+    height: 40px;
     margin-top: 20px;
     margin: auto;
     transform: translateY(20px);
