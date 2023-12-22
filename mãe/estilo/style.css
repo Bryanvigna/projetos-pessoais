@@ -41,7 +41,7 @@ main{
     
     padding-bottom: 40px;
 }
-.descricao{
+.descricao{ /*texto*/
     margin: 10px auto;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -50,10 +50,9 @@ main{
     font-weight: bolder;
     background-color: white;
     border-radius: 20px;
-    border-color: black;
-    border-style: solid;
+    border: 2px solid black;
 }
-.foto{
+.foto{/*foto principal*/
     background-color:transparent;
     background-image: url(../imagens/mãe\ png\ editada.png);
     background-size: cover;
@@ -64,18 +63,15 @@ main{
     height: 440px;
     margin: 20px auto;
     border-radius: 40px;
-    opacity: 50%;
     transition: .4s;
-}
-.foto:hover{
-    opacity: 100%;
     transform: scale(1.04);
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.534);
 }
-.icon{
+.icon{/*icones*/
     width: 375px;
     display: flex;
     margin: auto;
+    transition: .4s;
 }
 .icon:hover > :not(:hover){
     opacity: .4;
@@ -83,7 +79,7 @@ main{
     transition: .4s;
     cursor: pointer;
 }
-.zap{
+.zap{/*icone whatsapp*/
     background-image: url(../imagens/whatsapp.png);
     width: 90px;
     height: 90px;
@@ -95,7 +91,7 @@ main{
     transition: .4s;
     cursor: pointer;
 }
-.ytb{
+.ytb{/*icone yotube*/
     background-image: url(../imagens/youtube.png);
     width: 90px;
     height: 90px;
@@ -107,7 +103,7 @@ main{
     transition: .4s;
     cursor: pointer;
 }
-.inst{
+.inst{/*icone instagram*/
     background-image: url(../imagens/instagram.png);
     width: 90px;
     height: 90px;
@@ -119,7 +115,7 @@ main{
     transition: .4s;
     cursor: pointer;
 }
-.tl{
+.tl{/*icone telegram*/
     background-image: url(../imagens/telegram.png);
     width: 90px;
     height: 90px;
