@@ -68,21 +68,21 @@ main{
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.534);
 }
 .icon{/*icones*/
-    width: 375px;
+    width: 335px;
     display: flex;
     margin: auto;
     transition: .4s;
 }
-.icon:hover > :not(:hover){
-    opacity: .4;
+.icon:hover > :not(:hover){/*amostra de seleção*/
+    opacity: .6;
     transform: scale(0.9);
     transition: .4s;
     cursor: pointer;
 }
 .zap{/*icone whatsapp*/
     background-image: url(../imagens/whatsapp.png);
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     background-size: cover;
     background-position: center center;
@@ -93,8 +93,8 @@ main{
 }
 .ytb{/*icone yotube*/
     background-image: url(../imagens/youtube.png);
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
     margin-right: 5px;
     border-radius: 50%;
     background-size: cover;
@@ -105,8 +105,8 @@ main{
 }
 .inst{/*icone instagram*/
     background-image: url(../imagens/instagram.png);
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
     margin-right: 5px;
     border-radius: 50%;
     background-size: cover;
@@ -117,8 +117,8 @@ main{
 }
 .tl{/*icone telegram*/
     background-image: url(../imagens/telegram.png);
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     background-size: cover;
     background-position: center center;
