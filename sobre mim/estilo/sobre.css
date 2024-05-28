@@ -4,7 +4,7 @@
 
 
 :root{
-    --color1: #181818;
+    --color1: black;
     --color2: #ffd1ab;
     --color3: #cc8347de;
     --color4: #ff8b2db0;
@@ -21,18 +21,33 @@
     margin: 0px;
     padding: 0px;
 }
+html{
+    scroll-behavior: smooth;
+}
 strong{
     font-weight: bold;
 }
 body{
+    scroll-behavior: smooth;
     font-family: var(--font-padrão);
     font-size: 1em;
     background-color: white;
     position: relative;
 }
-header:hover > :not(:hover){
-    transition: .3s;
-    cursor: pointer;
+a.externo{
+
+    background-image: linear-gradient(to right,#ff8b2d41, var(--color4), transparent);
+}
+a.externo::after{
+    content:'\1F517';
+}
+footer a::after{
+    content:'\1F517';
+}
+body h1, h2{
+    font-family: var(--font-padrão);
+    font-size: 1.9em;
+    font-weight: bolder
 }
 header{
     width: auto;
@@ -40,6 +55,10 @@ header{
     background-image: linear-gradient(to top,rgb(22, 22, 22), rgba(148, 148, 148, 0.795));
     padding-top: 20px;
     padding-bottom: 0px;
+}
+header:hover > :not(:hover){
+    transition: .5s;
+    cursor: pointer;
 }
 header>h1{
     font-family: var(--font-padrão);
@@ -49,24 +68,16 @@ header>h1{
     color: white;
     margin-top: 20px;
     text-shadow: 1px 1px 1px black;
-    transition-duration: 0.4s;
-}
-header>h1:hover{
-    font-size: 3.2em;
-}
-header>h2{
-    font-family: var(--font-padrão);
-    text-align: center;
-    font-weight: bolder;
-    color: white;
-    margin-top: 20px;
-    text-shadow: 1px 1px 1px black;
 }
 header a{
     text-decoration: none;
-    color: white;
+    color:white;
 }
-header>h2{
+header>h1:hover{
+    transition-duration: 0.4s;
+    font-size: 3.2em;
+}
+header>p{
     font-family: var(--font-destaque);
     text-align: center;
     font-weight: normal;
@@ -74,7 +85,6 @@ header>h2{
     color: white;
     padding-top: 10px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.582);
-    transition: .2s;
 }
 nav{
     padding-left: 50px;
@@ -91,7 +101,7 @@ nav>a{
     font-size: 1.2em;
     font-weight: bold;
     padding: 10px;
-    transition-duration: .2s;
+    transition: .2s;
 }
 nav>a:hover{
     background-color: var(--color8);
@@ -110,7 +120,6 @@ footer{
     font-family: var(--font-padrão);
     text-align: center;
     font-size: 1.2em;
-    margin-top: 5%;
     padding: 5px;
 }
 footer a{
@@ -125,4 +134,16 @@ footer a:hover{
     text-decoration: underline;
     color: var(--color5);
     
+}
+/*estilo universal acaba aqui.*/
+
+article{
+    padding: 10px;
+    margin: auto;
+    width: 500px;
+    line-height: 2;
+}
+article p{
+    font-size: .9em;
+    color: rgb(51, 51, 51);
 }
