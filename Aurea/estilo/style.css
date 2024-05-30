@@ -83,6 +83,7 @@ main{
     background-image: url(../imagens/whatsapp.png);
     width: 80px;
     height: 80px;
+    transform: scale(0.9);
     border-radius: 50%;
     background-size: cover;
     background-position: center center;
@@ -95,6 +96,7 @@ main{
     background-image: url(../imagens/youtube.png);
     width: 80px;
     height: 80px;
+    transform: scale(0.9);
     margin-right: 5px;
     border-radius: 50%;
     background-size: cover;
@@ -107,6 +109,7 @@ main{
     background-image: url(../imagens/instagram.png);
     width: 80px;
     height: 80px;
+    transform: scale(0.9);
     margin-right: 5px;
     border-radius: 50%;
     background-size: cover;
@@ -119,11 +122,11 @@ main{
     background-image: url(../imagens/telegram.png);
     width: 80px;
     height: 80px;
+    transform: scale(0.9);
     border-radius: 50%;
     background-size: cover;
     background-position: center center;
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.493);
-
     transition: .4s;
     cursor: pointer;
 }
