@@ -81,28 +81,125 @@ nav{
     background-color:rgb(22, 22, 22);
     height: 20px;
     padding: 17px;
-    position: sticky;
     top: -1px;
 }
 nav>a{
     text-decoration: none;
     color: white ;
     font-family: var(--font-padrão);
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: bold;
     padding: 10px;
-    transition-duration: .2s;
+    transition: .2s;
 }
 nav>a:hover{
     background-color: var(--color8);
     color: white;
     border-radius: 10px;
-    font-size: 1.3em;
+    font-size: 1.2em;
     box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.507);
 }
 nav:hover > :not(:hover){
     opacity: 60%;
     transition: .2s;
+}
+main{
+    margin: auto;
+    width: 60%;
+    display:flex;
+    justify-content: space-between;
+}
+main p{
+    color: white;
+    font-size: 1.9em;
+    text-align: center;
+}
+main a{
+    text-decoration: none;
+}
+main:hover > :not(:hover){
+    opacity: .4;
+    transform: scale(0.9);
+    transition: .7s;
+    cursor: pointer;
+}
+.box1{/*behance*/
+    background-color: red;
+    margin: 20px ;
+    width: 200px;
+    height: 350px;
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/83ab18153227625.632bc8647ef90.png);
+    background-size: cover;
+    background-position: center center;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.521);
+    transition: 0.4s;
+}
+.box1>p{/*behance*/
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    width: 160px;
+    height: 40px;
+    border-radius: 20px;
+    margin: auto;
+    transform: translateY(20px);
+}
+.box1:hover{
+    transform: scale(0.969);
+    transform: translate(-0px, -6px);
+}
+.box2{/*github*/
+    margin: 20px;
+    width: 200px;
+    height: 350px;
+    border-radius: 20px;
+    background-image: url(../imagens/github.png);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: .4s;
+}
+.box2>p{/*github*/
+    background-color: black;
+    color: rgb(255, 255, 255);
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    margin: auto;
+    transform: translateY(20px);
+    transition: 0.4s;
+}
+.box2:hover{
+    transform: scale(0.969);
+    transform: translate(-0px, -6px);
+}
+.box3{/*email*/
+    background-color: transparent;
+    margin: 20px;
+    width: 200px;
+    height: 350px;
+    border-radius: 20px;
+    background-image: url(../imagens/o-email.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: 0.4s;
+}
+.box3>p{/*email*/
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    margin: auto;
+    transform: translateY(20px);
+}
+.box3:hover{
+    transform: scale(0.969);
+    transform: translate(-0px, -6px);
+    
 }
 footer{
     background-color: var(--color4);

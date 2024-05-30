@@ -98,7 +98,7 @@ nav>a{
     text-decoration: none;
     color: white ;
     font-family: var(--font-padrão);
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: bold;
     padding: 10px;
     transition: .2s;
@@ -107,8 +107,12 @@ nav>a:hover{
     background-color: var(--color8);
     color: white;
     border-radius: 10px;
-    font-size: 1.3em;
+    font-size: 1.2em;
     box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.507);
+}
+nav:hover > :not(:hover){
+    opacity: 60%;
+    transition: .2s;
 }
 nav:hover > :not(:hover){
     opacity: 60%;

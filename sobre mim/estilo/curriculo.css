@@ -98,7 +98,7 @@ nav>a{
     text-decoration: none;
     color: white ;
     font-family: var(--font-padrão);
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: bold;
     padding: 10px;
     transition: .2s;
@@ -107,7 +107,7 @@ nav>a:hover{
     background-color: var(--color8);
     color: white;
     border-radius: 10px;
-    font-size: 1.3em;
+    font-size: 1.2em;
     box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.507);
 }
 nav:hover > :not(:hover){
@@ -115,23 +115,23 @@ nav:hover > :not(:hover){
     transition: .2s;
 }
 footer{
+    position: absolute;
+    width: 100%;
     background-color: var(--color4);
     color: white;
-    font-family: var(--font-padrão);
-    text-align: center;
     font-size: 1.2em;
-    margin-top: 40px;
-    padding: 10px;
+}
+footer p{
+    display: flex;
+    justify-content: center;
 }
 footer a{
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
     transition: .3s;
 }
-footer a::after{
-    content:'\1F517';
-}
 footer a:hover{
+    transform: scale(1.05);
     text-decoration: underline;
     color: var(--color5);
     

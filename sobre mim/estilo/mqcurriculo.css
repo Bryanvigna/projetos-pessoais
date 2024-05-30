@@ -1,0 +1,13 @@
+@media screen and (max-width: 768px){
+.texto{
+    height: 500px;
+    margin-bottom: 10px;
+}
+#tcv{
+    padding-top: 100px;
+}
+nav{
+    position: relative;
+}
+
+}

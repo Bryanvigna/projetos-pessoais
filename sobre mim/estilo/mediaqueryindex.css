@@ -1,33 +1,38 @@
 @charset "UTF-8";
 
-@media screen and (max-width:678px){
+@media screen and (max-width:768px){
     .dg{
         display: grid;
         height: 640px;
         width: 410px;
     }
     .grafico1,.grafico2,.grafico3,.grafico4{
-        max-width:190px;
-        max-height: 290px;
+        width:190px;
+        height: 290px;
     }
-}
-@media (min-width:679px) and (max-width:900px){
-    .dg{
-        display: grid;
+    .behance{
+        width: 100%;
         margin: auto;
-        grid-template-columns: auto auto;
-        height: 830px;
-        width: 640px;
     }
-}
-@media (min-width:300px) and (max-width:1024){
-    #behance{
-        max-width:200px;
-        max-height:300px ;
+    .behance2,.behance3,.behance4,.behance5,.behance6,.behance7,.behance8{
+        height: 350px;
+        width: 400px;
     }
-    iframe{
-        min-width: 150px;
-        min-height: 200px;
+    .behance5{
+        background-size: contain;
+        height: 300px;
     }
-
+    .behance7{
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 225px;
+    }
+    .behance8{
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 225px;
+    }
+    footer{
+        font-size: 1em;
+    }
 }
